@@ -6,3 +6,4 @@ ENV N8N_BASIC_AUTH_ACTIVE=false
 # 外部公開用にポート指定（Render対応）
 EXPOSE 5678
 
+ENV WEBHOOK_TUNNEL_URL=https://fmc-n8n-3-1.onrender.com
