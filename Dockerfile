@@ -13,3 +13,8 @@ ENV WEBHOOK_TUNNEL_URL=https://fmc-n8n-3-1.onrender.com
 
 EXPOSE 5678
 
+docker run -it --rm\
+  --name n8n\
+	-p 5678:5678\
+ -v ～/.n8n:/home/node/.n8n\
+ docker.n8n.io/n8nio/n8n
